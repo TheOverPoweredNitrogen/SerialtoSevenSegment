@@ -1,5 +1,6 @@
 //OverPoweredNitrogen
 //Based on: http://www.hacktronics.com/Tutorials/arduino-and-7-segment-led.html
+//I also used some of their images.
 // License: http://www.opensource.org/licenses/mit-license.php (Go crazy)
 int incomingByte;      // a variable to read incoming serial data into
 
