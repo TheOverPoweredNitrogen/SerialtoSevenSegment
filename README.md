@@ -6,6 +6,8 @@ Code for sending number from serial to a arduino, and then to a seven segment di
 
 How to use:
 First you need to wire up the Arduino correctly
+
+
 ![Seven Segment](/img/7segment.gif "Seven Segment")
 ![Pinout](/img/7segmentdiagram.jpg "Pinout")
 ![Table](/img/arduinotable.png "Table")
