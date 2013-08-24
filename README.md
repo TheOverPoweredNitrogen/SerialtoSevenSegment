@@ -23,8 +23,8 @@ You can do this with code also:
 
 	#With Python, using the PySerial Library(http://pyserial.sourceforge.net/):
 
-	's = serial.Serial('/dev/tty.<yourusb>', 9600)''
-	's.write('1')''
+	s = serial.Serial('/dev/tty.<yourusb>', 9600)
+	s.write('1')''
 
 
  LICENSE
