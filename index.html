@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>OverPowredNitrogen</title>
+    <title>Serial To Seven Segment</title>
     <meta name="Landingpage" content="bootstrap:D">
-    <meta name="Opnitro" content="Damian Sowers">
+    <meta name="Opnitro" content="Corgi by Damian Sowers">
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
@@ -69,7 +69,16 @@
                               git clone <a href="https://github.com/opnitro/SerialtoSevenSegment">
                               https://github.com/opnitro/SerialtoSevenSegment</a> <br>
                               <h2> How to use </h2> <br>
-                                Transfer the code to the arduino, and build the circuit. Once that is done, go to Tools -> Sereal Moniter (command-shift-M). Enter a single digit number and press enter, it should appear on the display. Sending H, with bring up a 9 with a dot next to it, representing more than 9. Sending O will turn off the display.
+                                <p>Transfer the code to the arduino, and build the circuit. Once that is done, go to Tools -> Sereal Moniter (command-shift-M). Enter a single digit number and press enter, it should appear on the display. Sending H, with bring up a 9 with a dot next to it, representing more than 9. Sending O will turn off the display.</p>
+                                <br>
+                                An example of sending in python: <br>
+
+                                <code> 
+                                s = serial.Serial('/dev/tty.<yourusb>', 9600) <br>
+                                s.write('1')
+                                </code> 
+                                <br>
+                                Enjoy. :D
                         
                       </p>
                     </div>
@@ -114,7 +123,7 @@
                 
             </ul>
             <div class="corgi_copyright">
-              &copy; 2013 OverPoweredNitrogen
+              &copy; 2013 OverPoweredNitrogen. Hosted with  &hearts; by GitHub.
             </div>
           </div>
         </div>
